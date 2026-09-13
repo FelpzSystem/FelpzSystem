@@ -24,68 +24,117 @@
 ## 📊 GitHub Overview
 
 <!-- PROFILE_STATS_START -->
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=FelpzSystem&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelpzSystem&layout=compact&theme=tokyonight&hide_border=true"/>
-<br><br>
-<img src="https://streak-stats.demolab.com?user=FelpzSystem&theme=tokyonight&hide_border=true"/>
-</div>
+<div align="center"><img src="https://img.shields.io/badge/Repositories-12-7F00FF?style=for-the-badge"/> <img src="https://img.shields.io/badge/Stars-1-F5C542?style=for-the-badge"/> <img src="https://img.shields.io/badge/Followers-2-00C6FF?style=for-the-badge"/></div>
 <!-- PROFILE_STATS_END -->
 
 ## 🚀 Featured Projects
 
 <!-- FEATURED_PROJECTS_START -->
-<div align="center">
-<table>
+<div align="center"><table>
 <tr>
-<td align="center" width="33%">
-<a href="https://github.com/FelpzSystem/Hydra-emotes-api"><b>Hydra-emotes-api</b></a><br>
-⭐ 1 · 🍴 0
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/FelpzSystem/Wraith-v2"><b>Wraith-v2</b></a><br>
-⭐ 0 · 🍴 0
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/FelpzSystem/flizzy-api"><b>flizzy-api</b></a><br>
-⭐ 0 · 🍴 0
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://github.com/FelpzSystem/Base-api"><b>Base-api</b></a><br>
-⭐ 0 · 🍴 0
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/FelpzSystem/Unlimited-77"><b>Unlimited-77</b></a><br>
-⭐ 0 · 🍴 0
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/FelpzSystem/Script-test"><b>Script-test</b></a><br>
-⭐ 0 · 🍴 0
-</td>
-</tr>
-</table>
+
+<td width="33%" valign="top">
+<div>
+<h3><a href="https://github.com/FelpzSystem/Hydra-emotes-api">Hydra-emotes-api</a></h3>
+<p>Project by FelpzSystem.</p>
+<p>
+<img src="https://img.shields.io/badge/Python-6E56CF?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/FelpzSystem/Hydra-emotes-api?style=flat-square"/>
+<img src="https://img.shields.io/github/forks/FelpzSystem/Hydra-emotes-api?style=flat-square"/>
+</p>
 </div>
+</td>
+
+<td width="33%" valign="top">
+<div>
+<h3><a href="https://github.com/FelpzSystem/Script-test">Script-test</a></h3>
+<p>Nada</p>
+<p>
+<img src="https://img.shields.io/badge/Lua-6E56CF?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/FelpzSystem/Script-test?style=flat-square"/>
+<img src="https://img.shields.io/github/forks/FelpzSystem/Script-test?style=flat-square"/>
+</p>
+</div>
+</td>
+
+<td width="33%" valign="top">
+<div>
+<h3><a href="https://github.com/FelpzSystem/Wraith-v2">Wraith-v2</a></h3>
+<p>Project by FelpzSystem.</p>
+<p>
+<img src="https://img.shields.io/badge/JavaScript-6E56CF?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/FelpzSystem/Wraith-v2?style=flat-square"/>
+<img src="https://img.shields.io/github/forks/FelpzSystem/Wraith-v2?style=flat-square"/>
+</p>
+</div>
+</td>
+</tr>
+<tr>
+
+<td width="33%" valign="top">
+<div>
+<h3><a href="https://github.com/FelpzSystem/flizzy-api">flizzy-api</a></h3>
+<p>Project by FelpzSystem.</p>
+<p>
+<img src="https://img.shields.io/badge/TypeScript-6E56CF?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/FelpzSystem/flizzy-api?style=flat-square"/>
+<img src="https://img.shields.io/github/forks/FelpzSystem/flizzy-api?style=flat-square"/>
+</p>
+</div>
+</td>
+
+<td width="33%" valign="top">
+<div>
+<h3><a href="https://github.com/FelpzSystem/Unlimited-77">Unlimited-77</a></h3>
+<p>Unlimited 77</p>
+<p>
+<img src="https://img.shields.io/badge/CSS-6E56CF?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/FelpzSystem/Unlimited-77?style=flat-square"/>
+<img src="https://img.shields.io/github/forks/FelpzSystem/Unlimited-77?style=flat-square"/>
+</p>
+</div>
+</td>
+
+<td width="33%" valign="top">
+<div>
+<h3><a href="https://github.com/FelpzSystem/Base-api">Base-api</a></h3>
+<p>Project by FelpzSystem.</p>
+<p>
+<img src="https://img.shields.io/badge/JavaScript-6E56CF?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/FelpzSystem/Base-api?style=flat-square"/>
+<img src="https://img.shields.io/github/forks/FelpzSystem/Base-api?style=flat-square"/>
+</p>
+</div>
+</td>
+</tr>
+</table></div>
 <!-- FEATURED_PROJECTS_END -->
 
 ## 📦 All Projects
 
 <!-- ALL_PROJECTS_START -->
-<div align="center">
-<table>
+<div align="center"><table>
 <tr>
-<td width="33%"><b>Hydra-emotes-api</b><br>⭐ 1 · 🍴 0</td>
-<td width="33%"><b>Script-test</b><br>⭐ 0 · 🍴 0</td>
-<td width="33%"><b>Wraith-v2</b><br>⭐ 0 · 🍴 0</td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Hydra-emotes-api">Hydra-emotes-api</a></h3><p>No description</p><p><b>Python</b> · ⭐ 1 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Script-test">Script-test</a></h3><p>Nada</p><p><b>Lua</b> · ⭐ 0 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Wraith-v2">Wraith-v2</a></h3><p>No description</p><p><b>JavaScript</b> · ⭐ 0 · 🍴 0</p></td>
 </tr>
 <tr>
-<td width="33%"><b>flizzy-api</b><br>⭐ 0 · 🍴 0</td>
-<td width="33%"><b>Unlimited-77</b><br>⭐ 0 · 🍴 0</td>
-<td width="33%"><b>Base-api</b><br>⭐ 0 · 🍴 0</td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/flizzy-api">flizzy-api</a></h3><p>No description</p><p><b>TypeScript</b> · ⭐ 0 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Unlimited-77">Unlimited-77</a></h3><p>Unlimited 77</p><p><b>CSS</b> · ⭐ 0 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Base-api">Base-api</a></h3><p>No description</p><p><b>JavaScript</b> · ⭐ 0 · 🍴 0</p></td>
 </tr>
-</table>
-</div>
+<tr>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Hydra-outfit-api">Hydra-outfit-api</a></h3><p>No description</p><p><b>Python</b> · ⭐ 0 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Mitsuri-api">Mitsuri-api</a></h3><p>No description</p><p><b>EJS</b> · ⭐ 0 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/hydra-guest-api">hydra-guest-api</a></h3><p>No description</p><p><b>Python</b> · ⭐ 0 · 🍴 0</p></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Hydra-bio-api">Hydra-bio-api</a></h3><p>No description</p><p><b>HTML</b> · ⭐ 0 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Hydra-info-api">Hydra-info-api</a></h3><p>No description</p><p><b>Python</b> · ⭐ 0 · 🍴 0</p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/FelpzSystem/Nazu-bot">Nazu-bot</a></h3><p>WhatsApp bot made in Termux using the latest Baileys version. Includes auto commands, moderation, downloads, RPG, and more!</p><p><b>Code</b> · ⭐ 0 · 🍴 0</p></td>
+</tr>
+</table></div>
 <!-- ALL_PROJECTS_END -->
 
 ## 🧠 What I Build
