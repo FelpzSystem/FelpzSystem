@@ -44,61 +44,61 @@ repos.sort(
 
 featured = repos[:6]
 
+
+def badge(url, alt):
+    return '<img src="{}" alt="{}">'.format(url, alt)
+
 def featured_card(r):
     name = esc(r["name"])
-    desc = esc(r.get("description") or "Projeto em destaque da conta.")
+    desc = esc(r.get("description") or "Projeto em destaque.")
     lang = esc(r.get("language") or "Code")
     url = r["html_url"]
-    stars = urllib.parse.quote(r["name"], safe="")
-    return f"""
-<td width="33%" valign="top">
-<div>
-<h3><a href="{url}">{name}</a></h3>
-<p>{desc}</p>
-<p>
-<img src="https://img.shields.io/badge/{urllib.parse.quote(lang, safe='')}-6E56CF?style=flat-square"/>
-<img src="https://img.shields.io/github/stars/{OWNER}/{stars}?style=flat-square"/>
-<img src="https://img.shields.io/github/forks/{OWNER}/{stars}?style=flat-square"/>
-</p>
-</div>
-</td>"""
+    repo = urllib.parse.quote(r["name"], safe="")
+    return (
+        '<td align="center" valign="top" width="33%">'
+        '<h3><a href="{}">{}</a></h3>'
+        '<p>{}</p><p>{} {} {}</p></td>'
+    ).format(
+        url, name, desc,
+        badge('https://img.shields.io/badge/{}-181717?style=flat-square'.format(urllib.parse.quote(lang, safe='')), lang),
+        badge('https://img.shields.io/github/stars/{}/{}?style=flat-square'.format(OWNER, repo), 'stars'),
+        badge('https://img.shields.io/github/forks/{}/{}?style=flat-square'.format(OWNER, repo), 'forks')
+    )
 
 feature_rows = []
 for i in range(0, len(featured), 3):
-    chunk = featured[i:i+3]
-    cells = [featured_card(r) for r in chunk]
+    cells = [featured_card(r) for r in featured[i:i+3]]
     while len(cells) < 3:
         cells.append('<td width="33%"></td>')
-    feature_rows.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
-featured_html = '<div align="center"><table>\n' + "\n".join(feature_rows) + "\n</table></div>"
+    feature_rows.append('<tr>\n' + '\n'.join(cells) + '\n</tr>')
+featured_html = '<div align="center"><table>\n' + '\n'.join(feature_rows) + '\n</table></div>'
 
 all_rows = []
 for i in range(0, len(repos), 3):
-    chunk = repos[i:i+3]
     cells = []
-    for r in chunk:
-        name = esc(r["name"])
-        desc = esc(r.get("description") or "No description")
-        lang = esc(r.get("language") or "Code")
-        stars = r.get("stargazers_count", 0)
-        forks = r.get("forks_count", 0)
+    for r in repos[i:i+3]:
+        name = esc(r["name"]); desc = esc(r.get("description") or "Sem descrição.")
+        lang = esc(r.get("language") or "Code"); repo = urllib.parse.quote(r["name"], safe="")
         cells.append(
-            f'<td width="33%" valign="top"><h3><a href="{r["html_url"]}">{name}</a></h3>'
-            f'<p>{desc}</p><p><b>{lang}</b> · ⭐ {stars} · 🍴 {forks}</p></td>'
+            '<td align="center" valign="top" width="33%">'
+            '<h3><a href="{}">{}</a></h3><p>{}</p><p>{} {} {}</p></td>'.format(
+                r["html_url"], name, desc,
+                badge('https://img.shields.io/badge/{}-181717?style=flat-square'.format(urllib.parse.quote(lang, safe='')), lang),
+                badge('https://img.shields.io/github/stars/{}/{}?style=flat-square'.format(OWNER, repo), 'stars'),
+                badge('https://img.shields.io/github/forks/{}/{}?style=flat-square'.format(OWNER, repo), 'forks')
+            )
         )
     while len(cells) < 3:
         cells.append('<td width="33%"></td>')
-    all_rows.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
-all_projects_html = '<div align="center"><table>\n' + "\n".join(all_rows) + "\n</table></div>"
+    all_rows.append('<tr>\n' + '\n'.join(cells) + '\n</tr>')
+all_projects_html = '<div align="center"><table>\n' + '\n'.join(all_rows) + '\n</table></div>'
 
 total_stars = sum(r.get("stargazers_count", 0) for r in repos)
-stats_html = (
-    '<div align="center">'
-    f'<img src="https://img.shields.io/badge/Repositories-{len(repos)}-7F00FF?style=for-the-badge"/> '
-    f'<img src="https://img.shields.io/badge/Stars-{total_stars}-F5C542?style=for-the-badge"/> '
-    f'<img src="https://img.shields.io/badge/Followers-{user.get("followers", 0)}-00C6FF?style=for-the-badge"/>'
-    '</div>'
-)
+stats_html = ('<div align="center">'
+    + '<img src="https://img.shields.io/badge/Repositories-{}-181717?style=for-the-badge&logo=github" alt="Repositories"> '.format(len(repos))
+    + '<img src="https://img.shields.io/badge/Stars-{}-181717?style=for-the-badge&logo=github" alt="Stars"> '.format(total_stars)
+    + '<img src="https://img.shields.io/badge/Followers-{}-181717?style=for-the-badge&logo=github" alt="Followers">'.format(user.get("followers", 0))
+    + '</div>')
 
 text = README.read_text(encoding="utf-8")
 
