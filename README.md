@@ -1,33 +1,54 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=FelpzSystem&fontSize=54&fontAlignY=35&animation=fadeIn" alt="FelpzSystem header"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,100:00C6FF&height=220&section=header&text=FELPZSYSTEM&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E56CF&center=true&vCenter=true&width=760&lines=Developer+%7C+Automation+%7C+Bots;APIs+%7C+AI+%7C+Node.js+%7C+Python;Construindo+ferramentas+%C3%BAteis+com+c%C3%B3digo+%F0%9F%9A%80" alt="Typing SVG"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C6FF&center=true&vCenter=true&width=720&lines=Developer+%F0%9F%92%BB;Automation+%26+Bots+%F0%9F%A4%96;AI+%7C+APIs+%7C+Node.js+%7C+Python;Building+useful+things+with+code+%F0%9F%9A%80"/>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=FelpzSystem&style=for-the-badge&color=7F00FF"/>
-
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=FelpzSystem&style=for-the-badge&label=VISITAS+NO+PERFIL" alt="Profile views"/>
 </div>
 
-## 👨‍💻 About Me
+## 👋 Olá, eu sou o FelpzSystem!
 
-> Developer focused on automation, bots, APIs and AI integrations.  
-> I like turning ideas into practical tools, experiments and projects.
+> Desenvolvedor focado em **automação, bots, APIs e integrações com IA**. Gosto de transformar ideias em ferramentas práticas, experiências automatizadas e projetos que realmente fazem alguma coisa.
 
-## ⚡ Tech Stack
+### 🧩 Sobre mim
+
+- 🤖 Automação, bots e integrações
+- ⚡ APIs e sistemas com Node.js
+- 🐍 Scripts e ferramentas em Python
+- 🧠 Experimentos com IA
+- 🛠️ Projetos rápidos, utilitários e soluções personalizadas
+
+---
+
+## ⚙️ Tecnologias
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,python,html,css,lua,git,github,linux&perline=10"/>
+  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,python,html,css,lua,git,github,linux&perline=10" alt="Tech stack"/>
 </div>
 
-## 📊 GitHub Overview
+---
 
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=FelpzSystem&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelpzSystem&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
 <!-- PROFILE_STATS_START -->
 <div align="center"><img src="https://img.shields.io/badge/Repositories-12-7F00FF?style=for-the-badge"/> <img src="https://img.shields.io/badge/Stars-1-F5C542?style=for-the-badge"/> <img src="https://img.shields.io/badge/Followers-2-00C6FF?style=for-the-badge"/></div>
 <!-- PROFILE_STATS_END -->
 
-## 🚀 Featured Projects
+---
+
+## 🏆 GitHub Profile Trophy
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=FelpzSystem&theme=onedark&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub trophies"/>
+</div>
+
+---
+
+## 🚀 Projetos em destaque
 
 <!-- FEATURED_PROJECTS_START -->
 <div align="center"><table>
@@ -36,7 +57,7 @@
 <td width="33%" valign="top">
 <div>
 <h3><a href="https://github.com/FelpzSystem/Hydra-emotes-api">Hydra-emotes-api</a></h3>
-<p>Project by FelpzSystem.</p>
+<p>Projeto em destaque da conta.</p>
 <p>
 <img src="https://img.shields.io/badge/Python-6E56CF?style=flat-square"/>
 <img src="https://img.shields.io/github/stars/FelpzSystem/Hydra-emotes-api?style=flat-square"/>
@@ -60,7 +81,7 @@
 <td width="33%" valign="top">
 <div>
 <h3><a href="https://github.com/FelpzSystem/Wraith-v2">Wraith-v2</a></h3>
-<p>Project by FelpzSystem.</p>
+<p>Projeto em destaque da conta.</p>
 <p>
 <img src="https://img.shields.io/badge/JavaScript-6E56CF?style=flat-square"/>
 <img src="https://img.shields.io/github/stars/FelpzSystem/Wraith-v2?style=flat-square"/>
@@ -74,7 +95,7 @@
 <td width="33%" valign="top">
 <div>
 <h3><a href="https://github.com/FelpzSystem/flizzy-api">flizzy-api</a></h3>
-<p>Project by FelpzSystem.</p>
+<p>Projeto em destaque da conta.</p>
 <p>
 <img src="https://img.shields.io/badge/TypeScript-6E56CF?style=flat-square"/>
 <img src="https://img.shields.io/github/stars/FelpzSystem/flizzy-api?style=flat-square"/>
@@ -98,7 +119,7 @@
 <td width="33%" valign="top">
 <div>
 <h3><a href="https://github.com/FelpzSystem/Base-api">Base-api</a></h3>
-<p>Project by FelpzSystem.</p>
+<p>Projeto em destaque da conta.</p>
 <p>
 <img src="https://img.shields.io/badge/JavaScript-6E56CF?style=flat-square"/>
 <img src="https://img.shields.io/github/stars/FelpzSystem/Base-api?style=flat-square"/>
@@ -110,7 +131,9 @@
 </table></div>
 <!-- FEATURED_PROJECTS_END -->
 
-## 📦 All Projects
+---
+
+## 📚 Meus repositórios
 
 <!-- ALL_PROJECTS_START -->
 <div align="center"><table>
@@ -137,28 +160,31 @@
 </table></div>
 <!-- ALL_PROJECTS_END -->
 
-## 🧠 What I Build
+---
+
+## 🛠️ O que eu construo
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/Automation-7F00FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Bots-00C6FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/APIs-6E56CF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-111827?style=for-the-badge"/>
-
+  <img src="https://img.shields.io/badge/Automation-6E56CF?style=for-the-badge" alt="Automation"/>
+  <img src="https://img.shields.io/badge/Bots-111827?style=for-the-badge" alt="Bots"/>
+  <img src="https://img.shields.io/badge/APIs-0EA5E9?style=for-the-badge" alt="APIs"/>
+  <img src="https://img.shields.io/badge/AI-7C3AED?style=for-the-badge" alt="AI"/>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 </div>
 
-## 🐍 Contribution Snake
+---
+
+## 🐍 Contributions
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/FelpzSystem/FelpzSystem/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
-
+  <img src="https://raw.githubusercontent.com/FelpzSystem/FelpzSystem/output/github-contribution-grid-snake.svg" alt="Contribution snake"/>
 </div>
+
+---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:7F00FF&height=120&section=footer"/>
-
+  <b>⭐ Curtiu algum projeto? Deixa uma estrela!</b>
+  <br><br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer" alt="Footer"/>
 </div>
-

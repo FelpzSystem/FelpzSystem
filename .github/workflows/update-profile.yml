@@ -36,4 +36,3 @@ jobs:
           message: "chore: update profile"
           add: "README.md dist/github-contribution-grid-snake.svg"
           default_author: github_actions
-

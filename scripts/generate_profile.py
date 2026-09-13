@@ -7,7 +7,9 @@ import urllib.request
 from pathlib import Path
 
 OWNER = os.getenv("PROFILE_OWNER", "FelpzSystem")
-TOKEN = os.environ["GITHUB_TOKEN"]
+TOKEN = os.getenv("GITHUB_TOKEN", "").strip()
+if not TOKEN:
+    raise SystemExit('ERRO: GITHUB_TOKEN não está definido. No Termux, use: export GITHUB_TOKEN="SEU_TOKEN"')
 README = Path("README.md")
 API = "https://api.github.com"
 
@@ -44,7 +46,7 @@ featured = repos[:6]
 
 def featured_card(r):
     name = esc(r["name"])
-    desc = esc(r.get("description") or "Project by FelpzSystem.")
+    desc = esc(r.get("description") or "Projeto em destaque da conta.")
     lang = esc(r.get("language") or "Code")
     url = r["html_url"]
     stars = urllib.parse.quote(r["name"], safe="")
@@ -101,8 +103,12 @@ stats_html = (
 text = README.read_text(encoding="utf-8")
 
 def replace_section(text, start, end, replacement):
+    if start not in text or end not in text:
+        raise ValueError(f"Marcadores ausentes no README: {start} / {end}")
     start_pos = text.index(start) + len(start)
     end_pos = text.index(end)
+    if end_pos < start_pos:
+        raise ValueError(f"Ordem inválida dos marcadores: {start} / {end}")
     return text[:start_pos] + "\n" + replacement.rstrip() + "\n" + text[end_pos:]
 
 text = replace_section(text, "<!-- PROFILE_STATS_START -->", "<!-- PROFILE_STATS_END -->", stats_html)
@@ -111,4 +117,3 @@ text = replace_section(text, "<!-- ALL_PROJECTS_START -->", "<!-- ALL_PROJECTS_E
 
 README.write_text(text, encoding="utf-8")
 print(f"Updated profile with {len(repos)} repositories.")
-
