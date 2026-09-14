@@ -40,52 +40,20 @@
 ## 🚀 Projetos em destaque
 
 <!-- FEATURED_PROJECTS_START -->
-<div align="center"><table>
-<tr>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Hydra-emotes-api">Hydra-emotes-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/github/stars/FelpzSystem/Hydra-emotes-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Hydra-emotes-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Script-test">Script-test</a></h3><p>Nada</p><p><img src="https://img.shields.io/badge/Lua-2C2D72?style=flat&logo=lua&logoColor=white" alt="Lua"> <img src="https://img.shields.io/github/stars/FelpzSystem/Script-test?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Script-test?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Wraith-v2">Wraith-v2</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white" alt="JavaScript"> <img src="https://img.shields.io/github/stars/FelpzSystem/Wraith-v2?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Wraith-v2?style=flat" alt="Forks"></p></td>
-</tr>
-<tr>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/flizzy-api">flizzy-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/github/stars/FelpzSystem/flizzy-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/flizzy-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Unlimited-77">Unlimited-77</a></h3><p>Unlimited 77</p><p><img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css&logoColor=white" alt="CSS"> <img src="https://img.shields.io/github/stars/FelpzSystem/Unlimited-77?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Unlimited-77?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Base-api">Base-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white" alt="JavaScript"> <img src="https://img.shields.io/github/stars/FelpzSystem/Base-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Base-api?style=flat" alt="Forks"></p></td>
-</tr>
-</table></div>
+<div align="center"><p>Nenhum projeto público encontrado.</p></div>
 <!-- FEATURED_PROJECTS_END -->
 
 ## 📂 Meus projetos
 
 <!-- ALL_PROJECTS_START -->
-<div align="center"><table>
-<tr>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Hydra-emotes-api">Hydra-emotes-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/github/stars/FelpzSystem/Hydra-emotes-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Hydra-emotes-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Script-test">Script-test</a></h3><p>Nada</p><p><img src="https://img.shields.io/badge/Lua-2C2D72?style=flat&logo=lua&logoColor=white" alt="Lua"> <img src="https://img.shields.io/github/stars/FelpzSystem/Script-test?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Script-test?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Wraith-v2">Wraith-v2</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white" alt="JavaScript"> <img src="https://img.shields.io/github/stars/FelpzSystem/Wraith-v2?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Wraith-v2?style=flat" alt="Forks"></p></td>
-</tr>
-<tr>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/flizzy-api">flizzy-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/github/stars/FelpzSystem/flizzy-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/flizzy-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Unlimited-77">Unlimited-77</a></h3><p>Unlimited 77</p><p><img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css&logoColor=white" alt="CSS"> <img src="https://img.shields.io/github/stars/FelpzSystem/Unlimited-77?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Unlimited-77?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Base-api">Base-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white" alt="JavaScript"> <img src="https://img.shields.io/github/stars/FelpzSystem/Base-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Base-api?style=flat" alt="Forks"></p></td>
-</tr>
-<tr>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Hydra-outfit-api">Hydra-outfit-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/github/stars/FelpzSystem/Hydra-outfit-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Hydra-outfit-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Mitsuri-api">Mitsuri-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/EJS-333333?style=flat&logo=ejs&logoColor=white" alt="EJS"> <img src="https://img.shields.io/github/stars/FelpzSystem/Mitsuri-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Mitsuri-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/hydra-guest-api">hydra-guest-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/github/stars/FelpzSystem/hydra-guest-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/hydra-guest-api?style=flat" alt="Forks"></p></td>
-</tr>
-<tr>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Hydra-bio-api">Hydra-bio-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html&logoColor=white" alt="HTML"> <img src="https://img.shields.io/github/stars/FelpzSystem/Hydra-bio-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Hydra-bio-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Hydra-info-api">Hydra-info-api</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/github/stars/FelpzSystem/Hydra-info-api?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Hydra-info-api?style=flat" alt="Forks"></p></td>
-<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Nazu-bot">Nazu-bot</a></h3><p>WhatsApp bot made in Termux using the latest Baileys version. Includes auto commands, moderation, downloads, RPG, and more!</p><p><img src="https://img.shields.io/badge/Code-333333?style=flat&logo=code&logoColor=white" alt="Code"> <img src="https://img.shields.io/github/stars/FelpzSystem/Nazu-bot?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Nazu-bot?style=flat" alt="Forks"></p></td>
-</tr>
-</table></div>
+<div align="center"><p>Nenhum projeto público encontrado.</p></div>
 <!-- ALL_PROJECTS_END -->
 
 ## 📊 GitHub
 
 <!-- PROFILE_STATS_START -->
 <div align="center">
-<img src="https://img.shields.io/badge/Repositories-12-333333?style=flat&logo=github" alt="Repositories"> <img src="https://img.shields.io/badge/Stars-1-333333?style=flat&logo=github" alt="Stars"> <img src="https://img.shields.io/badge/Followers-2-333333?style=flat&logo=github" alt="Followers">
+<img src="https://img.shields.io/badge/Repositories-0-333333?style=flat&logo=github" alt="Repositories"> <img src="https://img.shields.io/badge/Stars-0-333333?style=flat&logo=github" alt="Stars"> <img src="https://img.shields.io/badge/Followers-2-333333?style=flat&logo=github" alt="Followers">
 </div>
 <!-- PROFILE_STATS_END -->
 
