@@ -40,20 +40,32 @@
 ## 🚀 Projetos em destaque
 
 <!-- FEATURED_PROJECTS_START -->
-<div align="center"><p>Nenhum projeto público encontrado.</p></div>
+<div align="center"><table>
+<tr>
+<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Shark">Shark</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/Code-333333?style=flat&logo=code&logoColor=white" alt="Code"> <img src="https://img.shields.io/github/stars/FelpzSystem/Shark?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Shark?style=flat" alt="Forks"></p></td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table></div>
 <!-- FEATURED_PROJECTS_END -->
 
 ## 📂 Meus projetos
 
 <!-- ALL_PROJECTS_START -->
-<div align="center"><p>Nenhum projeto público encontrado.</p></div>
+<div align="center"><table>
+<tr>
+<td align="center" valign="top" width="33%"><h3><a href="https://github.com/FelpzSystem/Shark">Shark</a></h3><p>Projeto sem descrição definida.</p><p><img src="https://img.shields.io/badge/Code-333333?style=flat&logo=code&logoColor=white" alt="Code"> <img src="https://img.shields.io/github/stars/FelpzSystem/Shark?style=flat" alt="Stars"> <img src="https://img.shields.io/github/forks/FelpzSystem/Shark?style=flat" alt="Forks"></p></td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table></div>
 <!-- ALL_PROJECTS_END -->
 
 ## 📊 GitHub
 
 <!-- PROFILE_STATS_START -->
 <div align="center">
-<img src="https://img.shields.io/badge/Repositories-0-333333?style=flat&logo=github" alt="Repositories"> <img src="https://img.shields.io/badge/Stars-0-333333?style=flat&logo=github" alt="Stars"> <img src="https://img.shields.io/badge/Followers-2-333333?style=flat&logo=github" alt="Followers">
+<img src="https://img.shields.io/badge/Repositories-1-333333?style=flat&logo=github" alt="Repositories"> <img src="https://img.shields.io/badge/Stars-0-333333?style=flat&logo=github" alt="Stars"> <img src="https://img.shields.io/badge/Followers-2-333333?style=flat&logo=github" alt="Followers">
 </div>
 <!-- PROFILE_STATS_END -->
 
