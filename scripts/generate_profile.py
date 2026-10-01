@@ -14,6 +14,11 @@ if not TOKEN:
 README = Path("README.md")
 API = "https://api.github.com"
 
+FALLBACK_DESCRIPTIONS = {
+    "virelix-tool": "Toolkit de processamento de imagens para Node.js (sharp): resize, conversão, compressão e batch.",
+    "Bug-Hunter": "Analisador estático para JS, TS, ESM/CJS e Python, com revisão assistida por IA opcional.",
+}
+
 def api(path):
     req = urllib.request.Request(
         API + path,
@@ -60,17 +65,19 @@ def tech_badge(language):
 
 def project_card(r):
     name = esc(r["name"])
-    desc = esc(r.get("description") or "Projeto sem descrição definida.")
+    desc = esc(r.get("description") or FALLBACK_DESCRIPTIONS.get(r["name"]) or "Projeto em desenvolvimento.")
     url = r["html_url"]
     repo = repo_name_url(r["name"])
     language = r.get("language") or "Code"
+    pin = urllib.parse.quote(f"{OWNER}/{r['name']}", safe="")
     return (
         '<td align="center" valign="top" width="33%">'
+        f'<a href="{url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username={urllib.parse.quote(OWNER, safe="")}&repo={pin}&theme=radical&hide_border=true" alt="{name}" width="100%" /></a>'
         f'<h3><a href="{url}">{name}</a></h3>'
         f'<p>{desc}</p>'
         f'<p>{tech_badge(language)} '
-        f'<img src="https://img.shields.io/github/stars/{OWNER}/{repo}?style=flat" alt="Stars"> '
-        f'<img src="https://img.shields.io/github/forks/{OWNER}/{repo}?style=flat" alt="Forks"></p>'
+        f'<img src="https://img.shields.io/github/stars/{OWNER}/{repo}?style=flat&label=%20" alt="Stars"> '
+        f'<img src="https://img.shields.io/github/forks/{OWNER}/{repo}?style=flat&label=%20" alt="Forks"></p>'
         '</td>'
     )
 
@@ -91,9 +98,10 @@ all_html = render_cards(repos)
 total_stars = sum(r.get("stargazers_count", 0) for r in repos)
 stats_html = (
     '<div align="center">\n'
-    f'<img src="https://img.shields.io/badge/Repositories-{len(repos)}-333333?style=flat&logo=github" alt="Repositories"> '
-    f'<img src="https://img.shields.io/badge/Stars-{total_stars}-333333?style=flat&logo=github" alt="Stars"> '
-    f'<img src="https://img.shields.io/badge/Followers-{user.get("followers", 0)}-333333?style=flat&logo=github" alt="Followers">'
+    f'<img src="https://img.shields.io/badge/Repositories-{len(repos)}-006bed?style=flat&label=%20&logo=github" alt="Repositories"> '
+    f'<img src="https://img.shields.io/badge/Stars-{total_stars}-F59E0B?style=flat&label=%20&logo=github" alt="Stars"> '
+    f'<img src="https://img.shields.io/badge/Followers-{user.get("followers", 0)}-EC4899?style=flat&label=%20&logo=github" alt="Followers"> '
+    f'<img src="https://img.shields.io/badge/Following-{user.get("following", 0)}-10B981?style=flat&label=%20&logo=github" alt="Following">'
     '\n</div>'
 )
 
