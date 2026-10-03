@@ -65,7 +65,7 @@
 
 <!-- PROFILE_STATS_START -->
 <div align="center">
-<img src="https://img.shields.io/badge/Repositories-2-333333?style=flat&logo=github" alt="Repositories"> <img src="https://img.shields.io/badge/Stars-0-333333?style=flat&logo=github" alt="Stars"> <img src="https://img.shields.io/badge/Followers-2-333333?style=flat&logo=github" alt="Followers">
+<img src="https://img.shields.io/badge/Repositories-2-333333?style=flat&logo=github" alt="Repositories"> <img src="https://img.shields.io/badge/Stars-0-333333?style=flat&logo=github" alt="Stars"> <img src="https://img.shields.io/badge/Followers-1-333333?style=flat&logo=github" alt="Followers">
 </div>
 <!-- PROFILE_STATS_END -->
 
